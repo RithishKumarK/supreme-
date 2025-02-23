@@ -20,12 +20,16 @@
 - Python >= 3.8
 - Additional dependencies specified in `requirements.txt`
 
-## Stack
-
 ### Core Technologies
-- **Python**: Primary programming language
-- **FastAPI** (if applicable): For building APIs
-- **PostgreSQL / MySQL** (if applicable): Database management
+- **Backend** (Node.js + Express)
+- Node.js – Runtime environment for JavaScript on the server.
+- Express.js – Backend framework for handling API requests.
+- CORS – Middleware to enable cross-origin requests.
+- Supabase (@supabase/supabase-js) – Open-source alternative to Firebase, used for database operations.
+- **Frontend** (React.js)
+- React.js – Frontend framework for building UI.
+- React Components – Modular UI structure (e.g., SQLQueryInterface.js).
+- Lucide-react – Icon library for UI enhancement.t
 
 ## Setting Up
 
@@ -47,12 +51,6 @@
 ### Running with Python
 ```sh
 python archflow.py
-```
-
-### Running with Docker
-```sh
-docker build -t archflow .
-docker run -p 8000:8000 archflow
 ```
 
 ## Contributors
