@@ -1,9 +1,8 @@
-
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
+- [Future Requirements](#future-requirements)
 - [Stack](#stack)
 - [Setting Up](#setting-up)
 - [Run Locally](#run-locally)
@@ -22,14 +21,34 @@
 
 ### Core Technologies
 - **Backend** (Node.js + Express)
-- Node.js – Runtime environment for JavaScript on the server.
-- Express.js – Backend framework for handling API requests.
-- CORS – Middleware to enable cross-origin requests.
-- Supabase (@supabase/supabase-js) – Open-source alternative to Firebase, used for database operations.
+  - Node.js – Runtime environment for JavaScript on the server.
+  - Express.js – Backend framework for handling API requests.
+  - CORS – Middleware to enable cross-origin requests.
+  - Supabase (@supabase/supabase-js) – Open-source alternative to Firebase, used for database operations.
 - **Frontend** (React.js)
-- React.js – Frontend framework for building UI.
-- React Components – Modular UI structure (e.g., SQLQueryInterface.js).
-- Lucide-react – Icon library for UI enhancement.t
+  - React.js – Frontend framework for building UI.
+  - React Components – Modular UI structure (e.g., SQLQueryInterface.js).
+  - Lucide-react – Icon library for UI enhancement.
+
+## Future Requirements
+
+To enhance **ArchFlow**, the following features will be implemented:
+
+1. **Diagram Creation**
+   - Users can manually design database diagrams within the app.
+   - An interactive UI will allow dragging and connecting tables.
+
+2. **AI-Generated Diagrams**
+   - Users can input a text prompt, and AI will generate the corresponding database schema diagram.
+   - AI-driven entity-relationship (ER) modeling for better accuracy.
+
+3. **SQL Query Generation from Diagrams**
+   - Convert manually created or AI-generated diagrams into SQL queries automatically.
+   - Ensure compatibility with multiple SQL dialects (PostgreSQL, MySQL, SQLite, etc.).
+
+4. **Automated Backend Integration**
+   - Once the SQL schema is generated, automatically set up the backend database.
+   - Streamline API creation and data connections for real-time applications.
 
 ## Setting Up
 
