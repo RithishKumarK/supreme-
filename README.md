@@ -3,7 +3,6 @@
     <img src='https://vdbs.vercel.app/medal.png' width="20%" alt="Medal image" />
   </a>
   <a href="https://x.com/xavimonp/status/1785862861836709980" target="_blank">
-    <p> Supabase Open Source Hackathon 2024 Winner 🤩</p>
   </a>
 </div>
 
