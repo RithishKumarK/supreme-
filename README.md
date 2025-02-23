@@ -1,10 +1,4 @@
-<div align="center">
-  <a href="https://x.com/xavimonp/status/1785862861836709980" target="_blank">
-    <img src='https://vdbs.vercel.app/medal.png' width="20%" alt="Medal image" />
-  </a>
-  <a href="https://x.com/xavimonp/status/1785862861836709980" target="_blank">
-  </a>
-</div>
+
 
 ## Table of Contents
 
