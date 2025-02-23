@@ -72,12 +72,6 @@ To enhance **ArchFlow**, the following features will be implemented:
 python archflow.py
 ```
 
-## Contributors
-
-<a href="https://github.com/your-repo/archflow/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=your-repo/archflow" />
-</a>
-
 ## License
 
 [**MIT**](LICENSE)
