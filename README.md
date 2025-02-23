@@ -23,7 +23,6 @@
 
 ## Requirements
 
-- Docker (for containerized deployment)
 - Python >= 3.8
 - Additional dependencies specified in `requirements.txt`
 
@@ -31,7 +30,6 @@
 
 ### Core Technologies
 - **Python**: Primary programming language
-- **Docker**: Containerization for easy deployment
 - **FastAPI** (if applicable): For building APIs
 - **PostgreSQL / MySQL** (if applicable): Database management
 
